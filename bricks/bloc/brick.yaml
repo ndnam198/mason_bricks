@@ -1,0 +1,15 @@
+name: bloc
+description: Create a new bloc using customized BaseBloc template
+repository: https://github.com:ndnam198/mason_bricks.git
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.57 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Bloc name
+    default: newbloc
+    prompt: What is the bloc name?
